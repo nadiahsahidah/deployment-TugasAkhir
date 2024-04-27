@@ -1,0 +1,111 @@
+.footer {
+  width: 100%;
+  padding: 1.5rem;
+  color: #F6F7F3;
+  background-color: rgba(0, 0, 0, .7) /*tapi jadinya navbar hero ga transparan */
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.footer .left {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
+}
+
+.footer .right {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
+}
+
+.footer h4 {
+  font-size: 1rem;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer .location {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.footer .location p {
+  padding-bottom: .5rem;
+}
+
+.footer .location h4 {
+  padding-top: 0;
+}
+
+.footer .social-links {
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--bs-warning);
+  color: #184457;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  background: #F6F7F3;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  text-align: center;
+  font-size: 13px;
+  margin: 0 0 5px 0;
+}
+
+.footer .credits {
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer .credits a {
+  color: var(--bs-warning);
+  transition: 0.3s;
+}
+
+.footer .credits a:hover {
+  color: #F6F7F3;
+}
+
+@media screen and (max-width:640px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .right .social {
+    margin: auto;
+  }
+}

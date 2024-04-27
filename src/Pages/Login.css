@@ -1,0 +1,52 @@
+/* Style untuk form login */
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 55% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style untuk judul */
+form h2 {
+  padding: 20px;
+}
+
+label.form-label {
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+form p {
+  text-align: center;
+  color: black;
+}
+
+/* Style untuk input dan tombol */
+/* input#formBasicEmail.form-control[type="email"],
+input#formBasicEmail.form-control[type="password"] {
+  color: rgb(0, 0, 0);
+} */
+
+form button.btn {
+  background-color: #184457;
+}
+
+form button.btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style untuk pesan kesalahan */
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+

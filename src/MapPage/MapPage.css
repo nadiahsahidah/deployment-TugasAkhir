@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+
+.navbar {
+  position: fixed;
+  /* Position Navbar relative to the viewport */
+  z-index: 9999;
+
+  top: 0;
+  /* Position Navbar at the top of the viewport */
+  left: 0;
+  /* Position Navbar at the left of the viewport */
+  width: 100%;
+  /* Set Navbar width to 100% of the viewport */
+}
+
+.leaflet-control-layers-list {
+  padding: 0;
+}
+
+/* .custom-layers-control {
+  background-color: white;
+  color: #000000;
+} */
+
+.map-container {
+  position: relative;
+}
+
+p {
+  color: #000000;
+}
+
+/* Search Feature */
+.search-box {
+  
+  position: absolute;
+  top: 10px !important;
+  /* Adjust the top position as needed */
+  left: 10px;
+  /* Adjust the left position as needed */
+  z-index: 1000;
+  /* Ensure the search box appears above the map */
+  border-radius: 50px;
+}
+
+.search-box input {
+  margin-right: 5px;
+  /* Adjust the width as needed */
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.search-box div {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-top: none;
+  max-height: 200px;
+  /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+/* .search-box div>div {
+  padding: 10px;
+  cursor: pointer;
+} */
+
+.search-box div>div:hover {
+  background-color: #f2f2f2;
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control {
+  top: 50px;
+}
+
+.button {
+  width: fit-content;
+  font-family: Raleway, sans-serif;
+  border-radius: 16px;
+  padding: 12px 24px;
+  font-size: 24px;
+  margin-top: auto;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+#lapor-button.button a {
+  color: #000000;
+}
+
+.button:hover {
+  background: #184457;
+}
+#lapor-button.button:hover a{
+  color: white !important;
+  
+}
+
+.popup-wrapper {
+  background: white;
+  color: #333;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  padding: 1px;
+  text-align: left;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+/* .wrapper .imgContainer {
+  height: 100%;
+} */
+
+.leaflet-popup-content{
+  width: 35vw !important; /* Lebarin image, lebarin ini dulu */
+}
+
+.legend-control {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1000; /* Atur z-index yang cukup tinggi */
+}
+
+.legend-item {
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  margin-right: 5px;
+  border: 0;
+}
+
+.legend-text {
+  vertical-align: middle;
+}

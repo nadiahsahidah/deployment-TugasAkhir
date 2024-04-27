@@ -1,0 +1,55 @@
+/* Stil untuk option pada select */
+select option {
+  background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+}
+
+
+/* Style untuk form Laporan*/
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px !important;
+  max-width: 555px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 65% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+}
+
+/* Style untuk judul */
+/* form h2 {
+padding: 20px;
+} */
+
+label.form-label {
+margin: 10px;
+color: black;
+font-weight: 500;
+}
+
+form p {
+text-align: center;
+color: black;
+}
+
+form button.btn {
+background-color: #184457;
+border: #184457 !important;
+}
+
+form button.btn:hover {
+background-color: #007bff;
+color: #fff;
+}
+
+/* Style untuk pesan kesalahan */
+.error-message {
+color: red;
+margin-bottom: 15px;
+}
+

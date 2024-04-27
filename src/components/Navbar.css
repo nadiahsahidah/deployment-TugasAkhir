@@ -1,0 +1,48 @@
+/* .bg-body-tertiary.navbar.navbar-expand-lg.navbar-light{
+  background-color:  #184457 !important;
+} */
+
+.navbar.order-last.order-lg-0 {
+  background-color: rgba(0, 0, 0, 0)
+}
+.navbar.navbar-scrolled {
+  background-color: rgba(0, 0, 0, .7) !important
+}
+
+a.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+/* .header.header-bg {
+  background-color: rgba(0, 0, 0, .7)
+} */
+
+@media screen and (max-width:1240px) {
+
+  .nav-menu li {
+    padding: 1rem 0;
+  }
+
+  .nav-menu a {
+    font-size: 2rem;
+  }
+
+  a.nav-link{
+    color: black;
+    /* font-weight: bold; */
+    font-size: large;
+  }
+
+  .me-auto.navbar-nav{
+    font-size: larger;
+  }
+
+  li.nav-item{
+    color: black;
+  }
+
+} 
+
+

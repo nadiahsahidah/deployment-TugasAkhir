@@ -1,0 +1,64 @@
+/* Style untuk form register */
+.register-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style untuk judul */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form h4 {
+  color: black;
+}
+
+.register-form p {
+  text-align: center;
+}
+
+/* Style untuk input dan tombol */
+.register-form input[type="email"],
+.register-form input[type="password"],
+.register-form input[type="text"] {
+  color: black;
+}
+
+.register-form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.register-form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #45a049;
+}
+
+.register-form a {
+  color: #45a049;
+}
+/* Style untuk pesan kesalahan */
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+

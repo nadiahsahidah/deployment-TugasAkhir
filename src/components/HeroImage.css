@@ -1,0 +1,74 @@
+.d-block.w-100 {
+  max-width: 100%;
+  max-height: 550px;
+  margin: 'auto';
+  object-Fit: 'cover';
+}
+
+.carousel-item img {
+  position: relative;
+}
+
+.carousel-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Ubah nilai alpha untuk menyesuaikan kegelapan overlay */
+}
+
+.carousel-caption {
+  position: absolute;
+  padding: 15px;
+  align-content: center;
+  left: 15%;
+  top: 10%;
+} 
+
+h1 {
+  font-family: var(--font-primary);
+  font-size: 60px !important;
+  font-weight: bold;
+}
+
+p {
+  color: #fff;
+  padding: 15px;
+  font-size: 15px !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1.horizontal-line {
+  position: relative;
+  padding: 25px; 
+  display: inline-block;
+}
+
+h1.horizontal-line::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%; 
+  border-bottom: 2px solid var(--bs-warning);
+}
+
+
+button.btn {
+  box-sizing: border-box;
+  border: 2px solid var(--bs-warning);
+  color: #fff;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+button.btn.btn-primary {
+  /* border-radius: 10px; */
+  width: 100px;
+}
+
+a.btn {
+  padding: 2px;
+}
